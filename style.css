@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-div{
+    text-align: center;
+    margin:20px;
+}
+
+#fetch-data{
+    padding: 20px 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 195, 137);
+}
+
+#users-data, .posts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:50px;
+    width:80vw;
+    margin: auto;
+}
+
+.user, .post{
+    width:20%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.user-btn{
+    padding: 10px;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    gap:40px;
+}
+
+#button-area button{
+    padding: 10px;
+    min-width: 400px;
+    max-width:400px;
+    cursor: pointer;
+}
